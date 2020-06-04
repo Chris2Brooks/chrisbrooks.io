@@ -2,6 +2,8 @@
 
 A light-themed starter powered by [Gatsby v2](https://www.gatsbyjs.org) and [Prismic](https://prismic.io/) to showcase portfolios and blogs.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/36687825-d672-4ec4-8e85-9b89992bcec9/deploy-status)](https://app.netlify.com/sites/chrisbrooks/deploys)
+
 <img width="1280" alt="prist" src="https://user-images.githubusercontent.com/5288685/63654882-51787e00-c746-11e9-9e9e-2ab823129d93.png">
 
 
