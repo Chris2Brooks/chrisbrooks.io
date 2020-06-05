@@ -1,0 +1,144 @@
+{
+    "componentChunkName": "component---src-pages-blog-js",
+    "path": "/blog",
+    "result": {
+        "data": {
+            "prismic": {
+                "allPosts": {
+                    "edges": [
+                        {
+                            "node": {
+                                "post_title": [
+                                    {
+                                        "type": "heading1",
+                                        "text": "Post Title 4",
+                                        "spans": []
+                                    }
+                                ],
+                                "post_date": "2019-08-01",
+                                "post_category": [
+                                    {
+                                        "type": "heading5",
+                                        "text": "Development",
+                                        "spans": []
+                                    }
+                                ],
+                                "post_preview_description": [
+                                    {
+                                        "type": "paragraph",
+                                        "text": "Preview description of the first blog post.",
+                                        "spans": []
+                                    }
+                                ],
+                                "post_author": "Prist Team",
+                                "_meta": {
+                                    "uid": "post-title-4"
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "post_title": [
+                                    {
+                                        "type": "heading1",
+                                        "text": "Post Title 3",
+                                        "spans": []
+                                    }
+                                ],
+                                "post_date": "2019-06-19",
+                                "post_category": [
+                                    {
+                                        "type": "heading5",
+                                        "text": "Software",
+                                        "spans": []
+                                    }
+                                ],
+                                "post_preview_description": [
+                                    {
+                                        "type": "paragraph",
+                                        "text": "Preview description of the third blog post! 🤙",
+                                        "spans": []
+                                    }
+                                ],
+                                "post_author": "Prist Team",
+                                "_meta": {
+                                    "uid": "post-title-3"
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "post_title": [
+                                    {
+                                        "type": "heading1",
+                                        "text": "Post Title 2",
+                                        "spans": []
+                                    }
+                                ],
+                                "post_date": "2019-06-18",
+                                "post_category": [
+                                    {
+                                        "type": "heading5",
+                                        "text": "Development",
+                                        "spans": []
+                                    }
+                                ],
+                                "post_preview_description": [
+                                    {
+                                        "type": "paragraph",
+                                        "text": "Preview description of the second blog post.",
+                                        "spans": []
+                                    }
+                                ],
+                                "post_author": "Marguerite Roth",
+                                "_meta": {
+                                    "uid": "post-title-2"
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "post_title": [
+                                    {
+                                        "type": "heading1",
+                                        "text": "Post Title 1",
+                                        "spans": []
+                                    }
+                                ],
+                                "post_date": "2019-06-10",
+                                "post_category": [
+                                    {
+                                        "type": "heading5",
+                                        "text": "Development",
+                                        "spans": []
+                                    }
+                                ],
+                                "post_preview_description": [
+                                    {
+                                        "type": "paragraph",
+                                        "text": "Preview description of the first blog post.",
+                                        "spans": []
+                                    }
+                                ],
+                                "post_author": "Prist Team",
+                                "_meta": {
+                                    "uid": "post-title-1"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "site": {
+                "siteMetadata": {
+                    "title": "Prist | Gatsby & Prismic Starter",
+                    "description": "A starter powered by Gatsby and Prismic to showcase portfolios and blogs.",
+                    "author": "Marguerite Roth | marguerite.io"
+                }
+            }
+        },
+        "pageContext": {
+            "rootQuery": "\n    {\n        prismic {\n            allPosts(sortBy: post_date_DESC) {\n                edges {\n                    node {\n                        post_title\n                        post_date\n                        post_category\n                        post_preview_description\n                        post_author\n                        _meta {\n                            uid\n                        }\n                    }\n                }\n            }\n        }\n        site {\n            siteMetadata {\n                title\n                description\n                author\n            }\n        }\n    }\n"
+        }
+    }
+}
