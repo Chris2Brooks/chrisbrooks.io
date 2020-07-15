@@ -1,4 +1,4 @@
-# Prist | A Gatsby & Prismic Starter
+# Welvome to the source for my personal site: chrisbrooks.io
 
 A light-themed starter powered by [Gatsby v2](https://www.gatsbyjs.org) and [Prismic](https://prismic.io/) to showcase portfolios and blogs.
 
