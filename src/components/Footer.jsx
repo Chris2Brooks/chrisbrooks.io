@@ -54,7 +54,7 @@ const Footer = () => (
             <Logo />
         </Link>
         <FooterAuthor href="https://www.marguerite.io/?utm_source=prist&utm_medium=footer&utm_campaign=prist_starter">
-            © 2019 — Designed & developed by Marguerite Roth
+            © 2020 — Designed & developed by Marguerite Roth
             <FooterSpooch className="FooterSpooch" src={spooch} />
         </FooterAuthor>
     </FooterContainer>
