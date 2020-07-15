@@ -1,1 +1,26 @@
-{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"data":{"prismic":{"allHomepages":{"edges":[]},"allProjects":{"edges":[]}},"site":{"siteMetadata":{"title":"Prist | Gatsby & Prismic Starter","description":"A starter powered by Gatsby and Prismic to showcase portfolios and blogs.","author":"Marguerite Roth | marguerite.io"}}},"pageContext":{"rootQuery":"\n    {\n        prismic {\n            allHomepages {\n                edges {\n                    node {\n                        hero_title\n                        hero_button_text\n                        hero_button_link {\n                            ... on PRISMIC__ExternalLink {\n                                _linkType\n                                url\n                            }\n                        }\n                        content\n                        about_title\n                        about_bio\n                        about_links {\n                            about_link\n                        }\n                    }\n                }\n            }\n            allProjects {\n                edges {\n                    node {\n                        project_title\n                        project_preview_description\n                        project_preview_thumbnail\n                        project_category\n                        project_post_date\n                        _meta {\n                            uid\n                        }\n                    }\n                }\n            }\n        }\n        site {\n            siteMetadata {\n                title\n                description\n                author\n            }\n        }\n    }\n"}}}
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/",
+    "result": {
+        "data": {
+            "prismic": {
+                "allHomepages": {
+                    "edges": []
+                },
+                "allProjects": {
+                    "edges": []
+                }
+            },
+            "site": {
+                "siteMetadata": {
+                    "title": "Prist | Gatsby & Prismic Starter",
+                    "description": "A starter powered by Gatsby and Prismic to showcase portfolios and blogs.",
+                    "author": "Marguerite Roth | marguerite.io"
+                }
+            }
+        },
+        "pageContext": {
+            "rootQuery": "\n    {\n        prismic {\n            allHomepages {\n                edges {\n                    node {\n                        hero_title\n                        hero_button_text\n                        hero_button_link {\n                            ... on PRISMIC__ExternalLink {\n                                _linkType\n                                url\n                            }\n                        }\n                        content\n                        about_title\n                        about_bio\n                        about_links {\n                            about_link\n                        }\n                    }\n                }\n            }\n            allProjects {\n                edges {\n                    node {\n                        project_title\n                        project_preview_description\n                        project_preview_thumbnail\n                        project_category\n                        project_post_date\n                        _meta {\n                            uid\n                        }\n                    }\n                }\n            }\n        }\n        site {\n            siteMetadata {\n                title\n                description\n                author\n            }\n        }\n    }\n"
+        }
+    }
+}

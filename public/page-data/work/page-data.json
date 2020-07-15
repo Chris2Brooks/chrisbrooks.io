@@ -1,1 +1,23 @@
-{"componentChunkName":"component---src-pages-work-js","path":"/work","result":{"data":{"prismic":{"allProjects":{"edges":[]}},"site":{"siteMetadata":{"title":"Prist | Gatsby & Prismic Starter","description":"A starter powered by Gatsby and Prismic to showcase portfolios and blogs.","author":"Marguerite Roth | marguerite.io"}}},"pageContext":{"rootQuery":"\n    {\n        prismic {\n            allProjects {\n                edges {\n                    node {\n                        project_title\n                        project_preview_description\n                        project_preview_thumbnail\n                        project_category\n                        project_post_date\n                        _meta {\n                            uid\n                        }\n                    }\n                }\n            }\n        }\n        site {\n            siteMetadata {\n                title\n                description\n                author\n            }\n        }\n    }\n"}}}
+{
+    "componentChunkName": "component---src-pages-work-js",
+    "path": "/work",
+    "result": {
+        "data": {
+            "prismic": {
+                "allProjects": {
+                    "edges": []
+                }
+            },
+            "site": {
+                "siteMetadata": {
+                    "title": "Chris Brooks | Gatsby & Prismic Starter",
+                    "description": "A starter powered by Gatsby and Prismic to showcase portfolios and blogs.",
+                    "author": "Marguerite Roth | marguerite.io"
+                }
+            }
+        },
+        "pageContext": {
+            "rootQuery": "\n    {\n        prismic {\n            allProjects {\n                edges {\n                    node {\n                        project_title\n                        project_preview_description\n                        project_preview_thumbnail\n                        project_category\n                        project_post_date\n                        _meta {\n                            uid\n                        }\n                    }\n                }\n            }\n        }\n        site {\n            siteMetadata {\n                title\n                description\n                author\n            }\n        }\n    }\n"
+        }
+    }
+}
